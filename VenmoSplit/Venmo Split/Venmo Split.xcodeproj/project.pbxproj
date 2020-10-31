@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3CE75C2548E16400694EB6 /* Venmo_SplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3CE75B2548E16400694EB6 /* Venmo_SplitApp.swift */; };
+		FB3CE75E2548E16400694EB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3CE75D2548E16400694EB6 /* ContentView.swift */; };
+		FB3CE7602548E16500694EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3CE75F2548E16500694EB6 /* Assets.xcassets */; };
+		FB3CE7632548E16500694EB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3CE7622548E16500694EB6 /* Preview Assets.xcassets */; };
+		FB3CE76E2548E16500694EB6 /* Venmo_SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3CE76D2548E16500694EB6 /* Venmo_SplitTests.swift */; };
+		FB3CE7792548E16500694EB6 /* Venmo_SplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3CE7782548E16500694EB6 /* Venmo_SplitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB3CE76A2548E16500694EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB3CE7502548E16400694EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB3CE7572548E16400694EB6;
+			remoteInfo = "Venmo Split";
+		};
+		FB3CE7752548E16500694EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB3CE7502548E16400694EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB3CE7572548E16400694EB6;
+			remoteInfo = "Venmo Split";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB3CE7582548E16400694EB6 /* Venmo Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Venmo Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3CE75B2548E16400694EB6 /* Venmo_SplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venmo_SplitApp.swift; sourceTree = "<group>"; };
+		FB3CE75D2548E16400694EB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB3CE75F2548E16500694EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB3CE7622548E16500694EB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB3CE7642548E16500694EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3CE7692548E16500694EB6 /* Venmo SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Venmo SplitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3CE76D2548E16500694EB6 /* Venmo_SplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venmo_SplitTests.swift; sourceTree = "<group>"; };
+		FB3CE76F2548E16500694EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3CE7742548E16500694EB6 /* Venmo SplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Venmo SplitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3CE7782548E16500694EB6 /* Venmo_SplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venmo_SplitUITests.swift; sourceTree = "<group>"; };
+		FB3CE77A2548E16500694EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB3CE7552548E16400694EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3CE7662548E16500694EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3CE7712548E16500694EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB3CE74F2548E16400694EB6 = {
+			isa = PBXGroup;
+			children = (
+				FB3CE75A2548E16400694EB6 /* Venmo Split */,
+				FB3CE76C2548E16500694EB6 /* Venmo SplitTests */,
+				FB3CE7772548E16500694EB6 /* Venmo SplitUITests */,
+				FB3CE7592548E16400694EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB3CE7592548E16400694EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB3CE7582548E16400694EB6 /* Venmo Split.app */,
+				FB3CE7692548E16500694EB6 /* Venmo SplitTests.xctest */,
+				FB3CE7742548E16500694EB6 /* Venmo SplitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB3CE75A2548E16400694EB6 /* Venmo Split */ = {
+			isa = PBXGroup;
+			children = (
+				FB3CE75B2548E16400694EB6 /* Venmo_SplitApp.swift */,
+				FB3CE75D2548E16400694EB6 /* ContentView.swift */,
+				FB3CE75F2548E16500694EB6 /* Assets.xcassets */,
+				FB3CE7642548E16500694EB6 /* Info.plist */,
+				FB3CE7612548E16500694EB6 /* Preview Content */,
+			);
+			path = "Venmo Split";
+			sourceTree = "<group>";
+		};
+		FB3CE7612548E16500694EB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB3CE7622548E16500694EB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB3CE76C2548E16500694EB6 /* Venmo SplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB3CE76D2548E16500694EB6 /* Venmo_SplitTests.swift */,
+				FB3CE76F2548E16500694EB6 /* Info.plist */,
+			);
+			path = "Venmo SplitTests";
+			sourceTree = "<group>";
+		};
+		FB3CE7772548E16500694EB6 /* Venmo SplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB3CE7782548E16500694EB6 /* Venmo_SplitUITests.swift */,
+				FB3CE77A2548E16500694EB6 /* Info.plist */,
+			);
+			path = "Venmo SplitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB3CE7572548E16400694EB6 /* Venmo Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3CE77D2548E16500694EB6 /* Build configuration list for PBXNativeTarget "Venmo Split" */;
+			buildPhases = (
+				FB3CE7542548E16400694EB6 /* Sources */,
+				FB3CE7552548E16400694EB6 /* Frameworks */,
+				FB3CE7562548E16400694EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Venmo Split";
+			productName = "Venmo Split";
+			productReference = FB3CE7582548E16400694EB6 /* Venmo Split.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB3CE7682548E16500694EB6 /* Venmo SplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3CE7802548E16500694EB6 /* Build configuration list for PBXNativeTarget "Venmo SplitTests" */;
+			buildPhases = (
+				FB3CE7652548E16500694EB6 /* Sources */,
+				FB3CE7662548E16500694EB6 /* Frameworks */,
+				FB3CE7672548E16500694EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB3CE76B2548E16500694EB6 /* PBXTargetDependency */,
+			);
+			name = "Venmo SplitTests";
+			productName = "Venmo SplitTests";
+			productReference = FB3CE7692548E16500694EB6 /* Venmo SplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB3CE7732548E16500694EB6 /* Venmo SplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3CE7832548E16500694EB6 /* Build configuration list for PBXNativeTarget "Venmo SplitUITests" */;
+			buildPhases = (
+				FB3CE7702548E16500694EB6 /* Sources */,
+				FB3CE7712548E16500694EB6 /* Frameworks */,
+				FB3CE7722548E16500694EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB3CE7762548E16500694EB6 /* PBXTargetDependency */,
+			);
+			name = "Venmo SplitUITests";
+			productName = "Venmo SplitUITests";
+			productReference = FB3CE7742548E16500694EB6 /* Venmo SplitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB3CE7502548E16400694EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FB3CE7572548E16400694EB6 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					FB3CE7682548E16500694EB6 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FB3CE7572548E16400694EB6;
+					};
+					FB3CE7732548E16500694EB6 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FB3CE7572548E16400694EB6;
+					};
+				};
+			};
+			buildConfigurationList = FB3CE7532548E16400694EB6 /* Build configuration list for PBXProject "Venmo Split" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB3CE74F2548E16400694EB6;
+			productRefGroup = FB3CE7592548E16400694EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB3CE7572548E16400694EB6 /* Venmo Split */,
+				FB3CE7682548E16500694EB6 /* Venmo SplitTests */,
+				FB3CE7732548E16500694EB6 /* Venmo SplitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB3CE7562548E16400694EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3CE7632548E16500694EB6 /* Preview Assets.xcassets in Resources */,
+				FB3CE7602548E16500694EB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3CE7672548E16500694EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3CE7722548E16500694EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB3CE7542548E16400694EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3CE75E2548E16400694EB6 /* ContentView.swift in Sources */,
+				FB3CE75C2548E16400694EB6 /* Venmo_SplitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3CE7652548E16500694EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3CE76E2548E16500694EB6 /* Venmo_SplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3CE7702548E16500694EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3CE7792548E16500694EB6 /* Venmo_SplitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB3CE76B2548E16500694EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB3CE7572548E16400694EB6 /* Venmo Split */;
+			targetProxy = FB3CE76A2548E16500694EB6 /* PBXContainerItemProxy */;
+		};
+		FB3CE7762548E16500694EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB3CE7572548E16400694EB6 /* Venmo Split */;
+			targetProxy = FB3CE7752548E16500694EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB3CE77B2548E16500694EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB3CE77C2548E16500694EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB3CE77E2548E16500694EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Venmo Split/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Venmo Split/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyruslo.Venmo-Split";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB3CE77F2548E16500694EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Venmo Split/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Venmo Split/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyruslo.Venmo-Split";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB3CE7812548E16500694EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Venmo SplitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyruslo.Venmo-SplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venmo Split.app/Venmo Split";
+			};
+			name = Debug;
+		};
+		FB3CE7822548E16500694EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Venmo SplitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyruslo.Venmo-SplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venmo Split.app/Venmo Split";
+			};
+			name = Release;
+		};
+		FB3CE7842548E16500694EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Venmo SplitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyruslo.Venmo-SplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Venmo Split";
+			};
+			name = Debug;
+		};
+		FB3CE7852548E16500694EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Venmo SplitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyruslo.Venmo-SplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Venmo Split";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB3CE7532548E16400694EB6 /* Build configuration list for PBXProject "Venmo Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3CE77B2548E16500694EB6 /* Debug */,
+				FB3CE77C2548E16500694EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3CE77D2548E16500694EB6 /* Build configuration list for PBXNativeTarget "Venmo Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3CE77E2548E16500694EB6 /* Debug */,
+				FB3CE77F2548E16500694EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3CE7802548E16500694EB6 /* Build configuration list for PBXNativeTarget "Venmo SplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3CE7812548E16500694EB6 /* Debug */,
+				FB3CE7822548E16500694EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3CE7832548E16500694EB6 /* Build configuration list for PBXNativeTarget "Venmo SplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3CE7842548E16500694EB6 /* Debug */,
+				FB3CE7852548E16500694EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB3CE7502548E16400694EB6 /* Project object */;
+}
